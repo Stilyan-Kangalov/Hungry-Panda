@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Hungry Panda</title>
+<link rel="stylesheet" href="css/style.css">
+<script type="text/javascript" src="js/functions.js"></script>
+</head>
+<body>
+ 
+<table>
+    <tr>
+	<td id="changeMode">
+	<div><img src="Bamboo-30.png" alt="icon_bamboo"/>
+	<span id="mainText">Text to Save:</span>
+	</div>
+	</td>
+	<td>
+	<button id="loadButtonLocal" class="hov-effect move-me-right" tabindex=4>Reload</button>
+	</td>
+	<td>
+	<button id="tempSave" class="hov-effect move-me-right" tabindex=4 >Save</button>
+	<button id="clearButtonLocal" class="hov-effect move-me-right" tabindex=5 >Clear</button>
+	</td>
+	</tr>
+    <tr>
+        <td colspan="3">
+		    <div id="textarea-container">
+            <textarea id="inputTextToSave" cols="74" rows="18" tabindex=1 placeholder="=|=| How to use |=|= &#10; &#10;1. Open new tab, load web page and select your text. &#10;2. Right click on it and choose 'Send Text to HungryPanda'. &#10;3. Repeat step 2 for every tab you want. &#10;** All parts are stored as draft in this text area. &#10;4. Edit the text (if needed) and save it with 'Save Text to File'. &#10;** Important: The draft is only temporary storage!&#10; &#10;=|=| Keys |=|= &#10; &#10;1. 'Tab' - faster navigation. &#10;2. 'Esc' - close the pop-up window. &#10 &#10;=|=| Hint |=|= &#10; &#10;Use HungryPanda's icon (toolbar) to add new selected text in the draft."></textarea>
+			<div id="copy"></div>
+			</div>
+        </td>
+    </tr>
+    <tr>
+        <td class="newsize">Filename to Save As:</td>
+        <td><input id="inputFileNameToSaveAs" tabindex=2 /></td>
+        <td><button id="saveButton" class="hov-effect" tabindex=3 >Save Text to File</button></td>
+    </tr>
+    <tr>
+        <td class="newsize">Select a File to Load:</td>
+        <td><input type="file" id="fileToLoad" /></td>
+        <td><button id="loadButton" class="hov-effect">Load Selected File</button></td>
+    </tr>
+</table>
+<div id="user-info"><img src="Timer.svg" id="timer" alt="icon_bamboo"/><span id="showStatus"></span></div>
+</body>
+</html>
+

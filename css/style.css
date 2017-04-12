@@ -1,0 +1,78 @@
+html { background-color: #e3e2e2;}
+
+body { margin-top: 3px; }
+
+td {
+    color: #975997;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+button {
+    color: #FFF;
+    background-color: #975997;
+    border-style: none;
+    padding: 5px;
+    margin: 3px;
+    border-radius: 2px;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+}
+
+#inputTextToSave {padding: 3px 5px;}
+
+.hov-effect {
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    vertical-align: middle;
+    z-index: 1;
+    transition: .3s ease-out;
+}
+
+button:hover {
+	background-color: #703070;
+	transition: .3s ease-out;
+	cursor: pointer;
+}
+
+.move-me-right {float: right}
+
+#textarea-container {
+   position: relative;
+   float: left;
+}
+
+#mainText {
+    vertical-align: super;
+}
+
+div#copy {
+    position: absolute;
+    right: 10px;
+    padding: 4px;
+    margin-top: -15px;
+    top: 25px;
+	color: #15a8eb;
+}
+
+.bg-copy { background: rgba(204, 204, 204, 0.5); }
+
+.newsize {
+    font-size: 15px;
+}
+
+#user-info  {
+    font-size: 14px;
+    font-weight: bold;
+    color: #7986cb;
+	margin: 1em 0 0.5em;
+}
+
+#timer {margin: 0 4px 0;}
+
+span {
+    vertical-align: super;
+}
