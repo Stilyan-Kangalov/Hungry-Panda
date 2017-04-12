@@ -92,6 +92,10 @@ function loadText()
 	} else {
 		var loadMeBefore = localStorage.getItem("savedtextbefore");
 		document.querySelector('#inputTextToSave').value = loadMeBefore;
+		localStorage.setItem("savedtext", loadMeBefore);
+		localStorage.setItem("textstatus", 2);
+		getTheTime();
+		changeTime();
 	}
 	
 }
