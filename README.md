@@ -24,6 +24,7 @@ Use HungryPanda's icon (toolbar) to add new selected text in the draft.
 
 =|=| Log |=|=
 
+Version 0.0.6 - Implementing Google Analytics.
 Version 0.0.5 - Fixed small bug - Load button now makes draft record. 
 Version 0.0.4 - New image for the main icon set.
 Version 0.0.3 - Resized pop-up window for better view on notebooks.
