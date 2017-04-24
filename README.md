@@ -1,6 +1,6 @@
-# Hungry Panda
-## Hungry Panda: Clipboard &amp; Notepad - Google Chrome extension.
-===================================================================
+# Hungry Panda: Clipboard &amp; Notepad
+## Google Chrome extension
+
 
 ★ You can copy as much text as you want with only 2 clicks and the extension already saves it for you in a draft, so you don't have to copy / paste on a separate word file.<br />
 ★ Once you make a file, the text from the draft automatically goes there. It saves a lot of time when writing a paper and doing a research, collecting information online in general.
